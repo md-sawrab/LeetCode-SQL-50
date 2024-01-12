@@ -1,1 +1,5 @@
-https://github.com/sawrab02/LeetCode-SQL-50/blob/main/584.%20Find%20Customer%20Referee
+Sollution:
+
+SELECT  name, population, area
+FROM world 
+WHERE area >= 3000000 OR population >= 25000000;
